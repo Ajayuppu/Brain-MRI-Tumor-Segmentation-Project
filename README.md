@@ -234,9 +234,6 @@ This section is the account of reused, modified and original work asked for in t
 - No pretrained weights, no other datasets, and no test labels for any modelling decision.
 - Studio-only extras from the earlier project (old audit notes, snapshot tools) were not carried over.
 
-**AI assistance**
-- An AI assistant helped write and restructure the code, tests and documentation. The student reviews,
-  runs and verifies every result and claim.
 
 ## Attribution
 
