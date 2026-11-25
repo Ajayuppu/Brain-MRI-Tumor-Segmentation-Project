@@ -1,0 +1,4 @@
+split,patients,image_mask_pairs,all_rows_belong_to_split,all_images_256x256x3,positive_slices,empty_slices,positive_slice_fraction,foreground_pixel_fraction,small_lesion_slices,patients_without_positive_slices
+train,77,2763,True,True,969.0,1794.0,0.3507057546145494,0.010573413032921078,21.0,0.0
+val,17,598,True,True,204.0,394.0,0.3411371237458194,0.008089760872831312,9.0,0.0
+test,16,568,True,True,,,,,,

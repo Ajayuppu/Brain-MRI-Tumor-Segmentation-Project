@@ -1,0 +1,385 @@
+{
+  "frozen_at": "2026-11-25T02:17:26+0000",
+  "data_root": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/data",
+  "allow_smoke_test_runs": false,
+  "code_sha256": {
+    "src/brain_mri_segmentation/data.py": "91cb5b5635bb616ddbfb990509c36f946f61f57497dacb289182236880a077e9",
+    "src/brain_mri_segmentation/model.py": "d0861de1a1714c9e04aec0e27b1c5d910e39d1b6cc3a9984ed6f90a6c51ed7f6",
+    "src/brain_mri_segmentation/metrics.py": "ec0bdf7e00c51afa7c715becf432d7a2b14cbc2973530f53d76d51de331f3b83",
+    "src/brain_mri_segmentation/hashing.py": "49d99a3e48491335e2b52bda8a51fba257dabcba391bcc24fb47f0601876d7f4",
+    "src/brain_mri_segmentation/freeze.py": "a66c1bece2af761e876d42354f0059ef5feea4d57960a36713ccec8a134d118e",
+    "src/brain_mri_segmentation/evaluate.py": "a842d58b199def6d190708aa5fec366c1c39fb77f9b374639ff1f5e526c50a58",
+    "scripts/05_evaluate_test_once.py": "9f27b502d7d1f2b7696eff17e24ddc9dcde309e2b2b11cdcdf0f22edc462c317"
+  },
+  "data_manifest_sha256": {
+    "/home/sagemaker-user/mlproject1-brain-mri-segmentation/data/train_manifest.csv": "d2bb375e570c511135baede2abea28dc44f45ba9afb15a9a3b549e22e37b5415",
+    "/home/sagemaker-user/mlproject1-brain-mri-segmentation/data/val_manifest.csv": "ad0c821de4fb7b473356d1d9805acda1fa14620df22c5449091f9b72493ed146",
+    "/home/sagemaker-user/mlproject1-brain-mri-segmentation/data/test_manifest.csv": "c6921b163eb39716b216365e8bb4c838b81e252349ce1f44726e412ddbd2e174"
+  },
+  "runs": {
+    "bce_seed0": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_seed0",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_seed0/selection.json",
+      "file_sha256": {
+        "best.pt": "0e3fc9a519c51913f2063967315fe38fff71c26b831a9a363edbaf53a65eef11",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "c83e528668a3ff7822bcf7d81a446908566f69a30a113d4d1e14a6da144b599f",
+        "run_summary.json": "e50fafeb2ded17db454a4b8d4cc80907eb12701c42e5ab0d6abe28a626ca81eb"
+      },
+      "selection_sha256": "3fd07c673c38063bd120b90edcd0d3e654fbdd54b9981b2e9b45f6c996a5e522",
+      "selected_threshold": 0.5,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_dice_lambda1_seed0": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_dice_lambda1_seed0",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_dice_lambda1_seed0/selection.json",
+      "file_sha256": {
+        "best.pt": "becd5def59d3e5f04c12ea7277b2ef6b1611ba83910aae2f85e3d0690c8501e0",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "d9fbe68b61b6ff631e275eacf5f1f249d63ce5c6140b6b956d1bf36c4c99979a",
+        "run_summary.json": "227ef53a0c2b3fdce866b84c80f1305e50090f9827976039ccba5817cdd42c0d"
+      },
+      "selection_sha256": "17595b7f241db15d6f06db031b0e86b18dc7fbc98bb269422f8e3b4b0e6ec624",
+      "selected_threshold": 0.65,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_seed1": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_seed1",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_seed1/selection.json",
+      "file_sha256": {
+        "best.pt": "4611562e42a67bb4748e2e55d39a2e2e2ef28338db6bfdb42418a3ab75bd35e6",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "d4bbee3642cdf7057504d5d6bb2e8bbe3db36061f90173c5ddd4c257939835ce",
+        "run_summary.json": "6513270a9e4c64eddfd05907037a4a4793d8b80567d203a308c44de03d9f7c7c"
+      },
+      "selection_sha256": "9e66601f67126c38a19b84a78e6ede419ee4c536282aebbf7e4c63406dba7f86",
+      "selected_threshold": 0.55,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_dice_lambda1_seed1": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_dice_lambda1_seed1",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_dice_lambda1_seed1/selection.json",
+      "file_sha256": {
+        "best.pt": "05b1e9d7814a8f044f944d80c92b7d8d274fd175dd17d97ef135fad88f0a5765",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "47fe1125f3d89efcd86f344ebfa8decbc983236677a7a0afb6f9278b7351e716",
+        "run_summary.json": "c491e9d2d128282bb08600cb7f6beb941524178cb4f0c5ac0072ec2a5a44ac2f"
+      },
+      "selection_sha256": "d98689fef64f23df8a661c6984259e9f3243d8a2c86ba07846a0afeeca3f78d7",
+      "selected_threshold": 0.7,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_seed2": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_seed2",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_seed2/selection.json",
+      "file_sha256": {
+        "best.pt": "1c749e97a42747f9de9ee534c1942b14057e081fd52f087556f3be2cc6551058",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "96b0eb6d9e3650de11e190f8d3e1a39ef81dff3716abcca17e77236179a14e47",
+        "run_summary.json": "b5eae5c0fd32c59d4d87ceb16ac4b9b9a2ddef93edfe5db3039064c0729ae449"
+      },
+      "selection_sha256": "2488b01d7f5b4f8adf164a9cb5f2a67703e6d55e6d6af5cb0c1daf65d56d2c30",
+      "selected_threshold": 0.5,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_dice_lambda1_seed2": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_dice_lambda1_seed2",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_dice_lambda1_seed2/selection.json",
+      "file_sha256": {
+        "best.pt": "33af0446837d8ba0192415937cc033d4db335caeb61b2276444af4dfc15c367f",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "66233b6a7d44d20ba56fdd78953a7a7e3e01f389675634825d75b870c047d04b",
+        "run_summary.json": "431b6ee010eaf8c6946a9570f16f75ef80e608c3a8275cd31f87bc3022f41a3a"
+      },
+      "selection_sha256": "b91c4972c468ed5b52f6d1f59f6bf546177cf9892991b57ab296fa4d6c922858",
+      "selected_threshold": 0.3,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "weighted_bce_seed0": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/weighted_bce_seed0",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/weighted_bce_seed0/selection.json",
+      "file_sha256": {
+        "best.pt": "8b000fa115ca84c8f44f38fc82b7d71237d1e65f7df29afc21bf32dba6966e6a",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "e86a492b80bc9d78350d18c11c427b3238b11fb26712d2b45a47e9d7121ab916",
+        "run_summary.json": "0475b3ecfac2299e56c7fa35b09ee3d3116164b2bd0339e50c79a6fa5a375420"
+      },
+      "selection_sha256": "e23b67a777e9ac12f4a02cd2719296ed98d9daa1d8ac95c0826554edace6eff4",
+      "selected_threshold": 0.95,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_positive_only_dice_seed0": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_positive_only_dice_seed0",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_positive_only_dice_seed0/selection.json",
+      "file_sha256": {
+        "best.pt": "1fe7dcc5b82c0160586ea5b1d03caea49f2afb752c06940208474aae0932f3af",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "45fca5afb7841a8ef6f895bfc3234e51d1c5bb59d8ac960acb8e501b18d71bff",
+        "run_summary.json": "479f4887248c78d9028fc49619831e89765e2e767fa48bfe971a3970a8033327"
+      },
+      "selection_sha256": "900cee67a2be428e7f2457a7cf81507383e9a4452217bc7d6274bf62d5977600",
+      "selected_threshold": 0.95,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "weighted_bce_seed1": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/weighted_bce_seed1",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/weighted_bce_seed1/selection.json",
+      "file_sha256": {
+        "best.pt": "90da5db7a36f5449004f942c4c5b758bcdf9c5f6691acab9e6f96f4e9aac4ecc",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "7a4dc315e269fce8eae38388ff686d1ea21160bc8c7d485a9be77210cf287451",
+        "run_summary.json": "d65cff94388f532181458df145974f269cf669dad1494b3a404212ec9560c25d"
+      },
+      "selection_sha256": "53d22ee4993ea2839b13d7b81516df3410bf1424d0937cf561be6a3ed8cd0d0b",
+      "selected_threshold": 0.95,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_positive_only_dice_seed1": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_positive_only_dice_seed1",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_positive_only_dice_seed1/selection.json",
+      "file_sha256": {
+        "best.pt": "23f41aea7ce141324fa9b03682d56c530ce75eaefdb0d31c32bad54c6c822164",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "26192923b2cffdb5c21358f9daa37a209bb3021a28068fd8fa097cb65f5ccf95",
+        "run_summary.json": "cad3757cf9eaaad7b5a716093d6f51b31112dae3e81bc875a914271d76ca0b1d"
+      },
+      "selection_sha256": "b988431f1f2925f665e12a8d487f45fa9982c9a983c2d016445708226cbfba77",
+      "selected_threshold": 0.1,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "weighted_bce_seed2": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/weighted_bce_seed2",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/weighted_bce_seed2/selection.json",
+      "file_sha256": {
+        "best.pt": "5d25d72af35a976d88d3c77596c2a58b6789b1414e42cc7e99556cccd995d4fa",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "e71197cd1319c4f002e9db5b489c7c4f9def4681aa129269654af82cb7590c6a",
+        "run_summary.json": "3ddc2cb4f0cfff04b2fec50b344617b04a1d12c891319b8ed4e974ebfd00dca4"
+      },
+      "selection_sha256": "72ae7d80a92b4d531c7eae213560ad9a3c23448fff75cddcc5062e624c06f751",
+      "selected_threshold": 0.95,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_positive_only_dice_seed2": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_positive_only_dice_seed2",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_positive_only_dice_seed2/selection.json",
+      "file_sha256": {
+        "best.pt": "35369e4b6b657c8f051bb6d539d2b07d42de3458d8a910b307f5f2dde73f6fc1",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "21e2fa1f67715f94e999daf3ff19ddcb9415e1865b3112bd00025af60a14b5b0",
+        "run_summary.json": "ca0a92d2943473aed562f7ec00d92ff45c4cb010f994072665a20865d2d827e8"
+      },
+      "selection_sha256": "dd2b5e4366f0d60afdef363aa31d568558cf20af83f95998f56094da3d236039",
+      "selected_threshold": 0.95,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_dice_lambda0.5_seed0": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_dice_lambda0.5_seed0",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_dice_lambda0.5_seed0/selection.json",
+      "file_sha256": {
+        "best.pt": "b82c4ad664ab6526d1198157c307c3de419708925969d2b26bf36d869964cfa3",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "40f2bcc87b7a16a4fafa10e82142a563c282502f7aacd55d29c9adc913c451a6",
+        "run_summary.json": "ce486364ccb0c00d8cad4c6fbf3fbeae42d0798cf4593096b0382657b9d21f95"
+      },
+      "selection_sha256": "c113c598aa66e1c1ac1db7ab3ac6900a16ed366539e037afe6bed2106f1817b5",
+      "selected_threshold": 0.95,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    },
+    "bce_dice_lambda2_seed0": {
+      "run_dir": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/runs/bce_dice_lambda2_seed0",
+      "selection_file": "/home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/bce_dice_lambda2_seed0/selection.json",
+      "file_sha256": {
+        "best.pt": "ebb265ec2494d8708aff8b4824b51aab21152c8ed585c0ebb25813078dfc657d",
+        "channel_statistics.json": "a331018af3febbcacbf9163f881edc1d09c6a8a2b87f1fd522a1fe5e264aea6b",
+        "config.yaml": "8583817571abc75261fdfe6d0b4a2d7a1a7457cf2fc621b2942029eed246eb73",
+        "run_summary.json": "cb476889b17bd4b91f1d73ed5db42fd4c78c21c50904f21548bfd5463109dcc1"
+      },
+      "selection_sha256": "3afb59a862a1a9eeb193233b16644fee03336da82d1e8a2c11827b0af6383d56",
+      "selected_threshold": 0.05,
+      "normalisation": {
+        "mean": [
+          22.023735082283256,
+          20.941859424437816,
+          22.099604459935843
+        ],
+        "std": [
+          32.94639499627019,
+          31.247993323461163,
+          32.63916309601455
+        ],
+        "fitted_on": "train",
+        "n_images": 2763
+      }
+    }
+  }
+}

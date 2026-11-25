@@ -1,0 +1,115 @@
+{
+  "splits": {
+    "train": {
+      "patients": 77,
+      "image_mask_pairs": 2763,
+      "all_rows_belong_to_split": true,
+      "all_images_256x256x3": true
+    },
+    "val": {
+      "patients": 17,
+      "image_mask_pairs": 598,
+      "all_rows_belong_to_split": true,
+      "all_images_256x256x3": true
+    },
+    "test": {
+      "patients": 16,
+      "image_mask_pairs": 568,
+      "all_rows_belong_to_split": true,
+      "all_images_256x256x3": true
+    }
+  },
+  "checks": {
+    "patients_shared_between_splits": {
+      "train-val": 0,
+      "train-test": 0,
+      "val-test": 0
+    },
+    "patients_not_matching_course_split_file": 0,
+    "duplicate_image_hashes_across_all_splits": 0,
+    "missing_train_or_validation_files": 0
+  },
+  "label_statistics": {
+    "train": {
+      "positive_slices": 969,
+      "empty_slices": 1794,
+      "positive_slice_fraction": 0.3507057546145494,
+      "foreground_pixel_fraction": 0.010573413032921078,
+      "lesion_area_pixels_quantiles": {
+        "0.0": 23.0,
+        "0.1": 336.00000000000006,
+        "0.25": 757.0,
+        "0.5": 1584.0,
+        "0.75": 2863.0,
+        "0.9": 4182.4,
+        "1.0": 7683.0
+      },
+      "small_lesion_slices": 21,
+      "patients_without_positive_slices": 0,
+      "per_patient_positive_fraction_min_median_max": [
+        0.13513513513513514,
+        0.3584905660377358,
+        0.5384615384615384
+      ]
+    },
+    "val": {
+      "positive_slices": 204,
+      "empty_slices": 394,
+      "positive_slice_fraction": 0.3411371237458194,
+      "foreground_pixel_fraction": 0.008089760872831312,
+      "lesion_area_pixels_quantiles": {
+        "0.0": 7.0,
+        "0.1": 205.60000000000002,
+        "0.25": 539.0,
+        "0.5": 1148.5,
+        "0.75": 2154.25,
+        "0.9": 3370.4000000000015,
+        "1.0": 6411.0
+      },
+      "small_lesion_slices": 9,
+      "patients_without_positive_slices": 0,
+      "per_patient_positive_fraction_min_median_max": [
+        0.2125,
+        0.34210526315789475,
+        0.6666666666666666
+      ]
+    }
+  },
+  "channel_intensity_statistics": {
+    "train": {
+      "pre_contrast": {
+        "mean": 22.023735082283256,
+        "std": 32.94639499627019,
+        "zero_pixel_fraction": 0.18193766607394307
+      },
+      "flair": {
+        "mean": 20.941859424437816,
+        "std": 31.247993323461163,
+        "zero_pixel_fraction": 0.09317039243992886
+      },
+      "post_contrast": {
+        "mean": 22.099604459935843,
+        "std": 32.63916309601455,
+        "zero_pixel_fraction": 0.17017362016808327
+      }
+    },
+    "val": {
+      "pre_contrast": {
+        "mean": 22.838181435065128,
+        "std": 35.91586551602067,
+        "zero_pixel_fraction": 0.261851792351458
+      },
+      "flair": {
+        "mean": 21.833940690975126,
+        "std": 32.68220331159406,
+        "zero_pixel_fraction": 0.13013300050461174
+      },
+      "post_contrast": {
+        "mean": 23.13052562088472,
+        "std": 34.70829472522672,
+        "zero_pixel_fraction": 0.25727188467580736
+      }
+    }
+  },
+  "problems": []
+}

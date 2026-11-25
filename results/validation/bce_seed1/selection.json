@@ -1,0 +1,29 @@
+{
+  "run_name": "bce_seed1",
+  "best_epoch": 21,
+  "selected_threshold": 0.55,
+  "selection_metric": "pooled_foreground_dice",
+  "selected_threshold_is_grid_edge": false,
+  "validation_summary_at_selected_threshold": {
+    "n_slices": 598,
+    "pooled_foreground_dice": 0.7083969562079871,
+    "pooled_foreground_iou": 0.5484633685348147,
+    "mean_slice_dice": 0.7704334271071834,
+    "mean_slice_iou": 0.7390505828259231,
+    "positive_slice_dice": 0.5525450461279201,
+    "positive_slice_iou": 0.46055023789167615,
+    "n_positive_slices": 204,
+    "n_empty_slices": 394,
+    "empty_slices_with_false_positives": 46,
+    "empty_slice_false_positive_rate": 0.116751269035533,
+    "empty_slice_false_positive_pixels_total": 35812,
+    "empty_slice_false_positive_pixels_mean": 90.89340101522842,
+    "patient_dice_mean": 0.6568821974326355,
+    "patient_dice_median": 0.791974656810982,
+    "patient_dice_std": 0.25145330803401256,
+    "patient_dice_min": 0.0,
+    "n_patients": 17,
+    "pixel_accuracy": 0.9952879175294602
+  },
+  "best_checkpoint_sha256": "4611562e42a67bb4748e2e55d39a2e2e2ef28338db6bfdb42418a3ab75bd35e6"
+}

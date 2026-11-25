@@ -1,0 +1,30 @@
+2026-11-25 01:26:09,645 INFO 14 of 14 runs to train on GPUs [0, 1, 2, 3] (1 per GPU)
+2026-11-25 01:26:09,646 INFO started bce_seed0 on GPU 0 (slot 0, pid 13973)
+2026-11-25 01:26:09,646 INFO started bce_dice_lambda1_seed0 on GPU 1 (slot 1, pid 13974)
+2026-11-25 01:26:09,647 INFO started bce_seed1 on GPU 2 (slot 2, pid 13975)
+2026-11-25 01:26:09,648 INFO started bce_dice_lambda1_seed1 on GPU 3 (slot 3, pid 13976)
+2026-11-25 01:38:04,663 INFO finished bce_dice_lambda1_seed0
+2026-11-25 01:38:09,665 INFO started bce_seed2 on GPU 1 (slot 1, pid 1361095)
+2026-11-25 01:38:09,665 INFO finished bce_seed0
+2026-11-25 01:38:09,665 INFO finished bce_dice_lambda1_seed1
+2026-11-25 01:38:14,666 INFO started bce_dice_lambda1_seed2 on GPU 0 (slot 0, pid 1362243)
+2026-11-25 01:38:14,667 INFO started weighted_bce_seed0 on GPU 3 (slot 3, pid 1362244)
+2026-11-25 01:38:14,667 INFO finished bce_seed1
+2026-11-25 01:38:19,668 INFO started bce_positive_only_dice_seed0 on GPU 2 (slot 2, pid 1366903)
+2026-11-25 01:50:09,683 INFO finished bce_seed2
+2026-11-25 01:50:14,685 INFO started weighted_bce_seed1 on GPU 1 (slot 1, pid 2699934)
+2026-11-25 01:50:19,685 INFO finished bce_dice_lambda1_seed2
+2026-11-25 01:50:24,686 INFO started bce_positive_only_dice_seed1 on GPU 0 (slot 0, pid 2711102)
+2026-11-25 01:50:24,686 INFO finished weighted_bce_seed0
+2026-11-25 01:50:29,687 INFO started weighted_bce_seed2 on GPU 3 (slot 3, pid 2715866)
+2026-11-25 01:50:29,687 INFO finished bce_positive_only_dice_seed0
+2026-11-25 01:50:34,689 INFO started bce_positive_only_dice_seed2 on GPU 2 (slot 2, pid 2720998)
+2026-11-25 02:02:14,704 INFO finished weighted_bce_seed1
+2026-11-25 02:02:19,705 INFO started bce_dice_lambda0.5_seed0 on GPU 1 (slot 1, pid 4030382)
+2026-11-25 02:02:39,706 INFO finished bce_positive_only_dice_seed1
+2026-11-25 02:02:39,706 INFO finished weighted_bce_seed2
+2026-11-25 02:02:44,707 INFO started bce_dice_lambda2_seed0 on GPU 0 (slot 0, pid 4066268)
+2026-11-25 02:02:44,708 INFO finished bce_positive_only_dice_seed2
+2026-11-25 02:14:14,722 INFO finished bce_dice_lambda0.5_seed0
+2026-11-25 02:14:44,723 INFO finished bce_dice_lambda2_seed0
+2026-11-25 02:14:49,723 INFO All runs finished.

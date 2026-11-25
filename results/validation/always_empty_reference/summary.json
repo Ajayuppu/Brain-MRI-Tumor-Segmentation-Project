@@ -1,0 +1,21 @@
+{
+  "n_slices": 598,
+  "pooled_foreground_dice": 0.0,
+  "pooled_foreground_iou": 0.0,
+  "mean_slice_dice": 0.6588628762541806,
+  "mean_slice_iou": 0.6588628762541806,
+  "positive_slice_dice": 0.0,
+  "positive_slice_iou": 0.0,
+  "n_positive_slices": 204,
+  "n_empty_slices": 394,
+  "empty_slices_with_false_positives": 0,
+  "empty_slice_false_positive_rate": 0.0,
+  "empty_slice_false_positive_pixels_total": 0,
+  "empty_slice_false_positive_pixels_mean": 0.0,
+  "patient_dice_mean": 0.0,
+  "patient_dice_median": 0.0,
+  "patient_dice_std": 0.0,
+  "patient_dice_min": 0.0,
+  "n_patients": 17,
+  "pixel_accuracy": 0.9919102391271687
+}

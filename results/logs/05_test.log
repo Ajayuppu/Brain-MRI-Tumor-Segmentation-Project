@@ -1,0 +1,16 @@
+2026-11-25 02:17:46,844 INFO always_empty_reference         pooled_foreground_dice=0.0000  positive_slice_dice=0.0000  empty_slices_with_false_positives=0  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_seed0                      pooled_foreground_dice=0.8176  positive_slice_dice=0.7298  empty_slices_with_false_positives=29  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_dice_lambda1_seed0         pooled_foreground_dice=0.8036  positive_slice_dice=0.6892  empty_slices_with_false_positives=19  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_seed1                      pooled_foreground_dice=0.8319  positive_slice_dice=0.7223  empty_slices_with_false_positives=33  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_dice_lambda1_seed1         pooled_foreground_dice=0.7603  positive_slice_dice=0.6895  empty_slices_with_false_positives=50  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_seed2                      pooled_foreground_dice=0.8373  positive_slice_dice=0.7389  empty_slices_with_false_positives=27  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_dice_lambda1_seed2         pooled_foreground_dice=0.8093  positive_slice_dice=0.7196  empty_slices_with_false_positives=36  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO weighted_bce_seed0             pooled_foreground_dice=0.7362  positive_slice_dice=0.6960  empty_slices_with_false_positives=74  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_positive_only_dice_seed0   pooled_foreground_dice=0.7332  positive_slice_dice=0.7037  empty_slices_with_false_positives=100  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO weighted_bce_seed1             pooled_foreground_dice=0.7444  positive_slice_dice=0.6792  empty_slices_with_false_positives=69  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_positive_only_dice_seed1   pooled_foreground_dice=0.8158  positive_slice_dice=0.7430  empty_slices_with_false_positives=96  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO weighted_bce_seed2             pooled_foreground_dice=0.7565  positive_slice_dice=0.6754  empty_slices_with_false_positives=57  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_positive_only_dice_seed2   pooled_foreground_dice=0.8158  positive_slice_dice=0.7275  empty_slices_with_false_positives=83  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_dice_lambda0.5_seed0       pooled_foreground_dice=0.7919  positive_slice_dice=0.6764  empty_slices_with_false_positives=29  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO bce_dice_lambda2_seed0         pooled_foreground_dice=0.7957  positive_slice_dice=0.6840  empty_slices_with_false_positives=28  n_empty_slices=368
+2026-11-25 02:17:46,844 INFO Test results written to /home/sagemaker-user/mlproject1-brain-mri-segmentation/results/test

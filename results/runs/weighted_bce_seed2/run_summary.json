@@ -1,0 +1,28 @@
+{
+  "run_name": "weighted_bce_seed2",
+  "finished_at": "2026-11-25T02:02:35+0000",
+  "is_smoke_test": false,
+  "best_epoch": 25,
+  "best_validation_pooled_foreground_dice_over_threshold_grid": 0.6832149886129376,
+  "epochs_run": 50,
+  "positive_class_weight_used": 93.57684069339092,
+  "trainable_parameters": 7763041,
+  "device": "cuda",
+  "gpu_name": "NVIDIA L40S",
+  "training_seconds": 722.6,
+  "resumed_at_epochs": [],
+  "n_train_slices": 2763,
+  "n_validation_slices": 598,
+  "best_checkpoint_sha256": "5d25d72af35a976d88d3c77596c2a58b6789b1414e42cc7e99556cccd995d4fa",
+  "selection_rule": "checkpoint = epoch with the highest best-over-grid validation pooled foreground Dice; threshold is re-selected on that checkpoint by scripts/03_select_on_validation.py",
+  "environment": {
+    "python": "3.13.18",
+    "torch": "2.12.0",
+    "torch_cuda": "13.0",
+    "cudnn": 92801,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "numpy": "2.2.6",
+    "nvidia_smi": "NVIDIA L40S, 595.112.07, 46068 MiB\nNVIDIA L40S, 595.112.07, 46068 MiB\nNVIDIA L40S, 595.112.07, 46068 MiB\nNVIDIA L40S, 595.112.07, 46068 MiB"
+  }
+}

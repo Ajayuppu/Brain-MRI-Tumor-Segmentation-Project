@@ -1,0 +1,29 @@
+{
+  "run_name": "bce_dice_lambda2_seed0",
+  "best_epoch": 17,
+  "selected_threshold": 0.05,
+  "selection_metric": "pooled_foreground_dice",
+  "selected_threshold_is_grid_edge": true,
+  "validation_summary_at_selected_threshold": {
+    "n_slices": 598,
+    "pooled_foreground_dice": 0.7436331774802261,
+    "pooled_foreground_iou": 0.5918917661235216,
+    "mean_slice_dice": 0.7896827975643697,
+    "mean_slice_iou": 0.7586633207446454,
+    "positive_slice_dice": 0.5256387889386914,
+    "positive_slice_iou": 0.4347091461044019,
+    "n_positive_slices": 204,
+    "n_empty_slices": 394,
+    "empty_slices_with_false_positives": 29,
+    "empty_slice_false_positive_rate": 0.07360406091370558,
+    "empty_slice_false_positive_pixels_total": 13756,
+    "empty_slice_false_positive_pixels_mean": 34.91370558375635,
+    "patient_dice_mean": 0.6238876020743251,
+    "patient_dice_median": 0.7109029677962534,
+    "patient_dice_std": 0.2904429066997633,
+    "patient_dice_min": 0.0,
+    "n_patients": 17,
+    "pixel_accuracy": 0.9957481818055628
+  },
+  "best_checkpoint_sha256": "ebb265ec2494d8708aff8b4824b51aab21152c8ed585c0ebb25813078dfc657d"
+}

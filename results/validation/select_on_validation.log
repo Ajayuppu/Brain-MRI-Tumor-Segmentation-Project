@@ -1,0 +1,15 @@
+2026-11-25 02:16:38,246 INFO bce_seed0: best epoch 37, threshold 0.50, validation pooled_foreground_dice 0.7760, positive-slice Dice 0.6094, empty FP 40/394
+2026-11-25 02:16:41,393 INFO bce_dice_lambda1_seed0: best epoch 40, threshold 0.65, validation pooled_foreground_dice 0.7792, positive-slice Dice 0.6015, empty FP 25/394
+2026-11-25 02:16:44,502 INFO bce_seed1: best epoch 21, threshold 0.55, validation pooled_foreground_dice 0.7084, positive-slice Dice 0.5525, empty FP 46/394
+2026-11-25 02:16:47,690 INFO bce_dice_lambda1_seed1: best epoch 49, threshold 0.70, validation pooled_foreground_dice 0.7662, positive-slice Dice 0.5621, empty FP 40/394
+2026-11-25 02:16:50,808 INFO bce_seed2: best epoch 27, threshold 0.50, validation pooled_foreground_dice 0.7915, positive-slice Dice 0.6103, empty FP 27/394
+2026-11-25 02:16:53,921 INFO bce_dice_lambda1_seed2: best epoch 36, threshold 0.30, validation pooled_foreground_dice 0.7808, positive-slice Dice 0.5799, empty FP 15/394
+2026-11-25 02:16:57,103 INFO weighted_bce_seed0: best epoch 31, threshold 0.95, validation pooled_foreground_dice 0.6577, positive-slice Dice 0.5990, empty FP 86/394
+2026-11-25 02:17:00,341 INFO bce_positive_only_dice_seed0: best epoch 40, threshold 0.95, validation pooled_foreground_dice 0.6905, positive-slice Dice 0.5651, empty FP 130/394
+2026-11-25 02:17:03,465 INFO weighted_bce_seed1: best epoch 22, threshold 0.95, validation pooled_foreground_dice 0.7135, positive-slice Dice 0.5689, empty FP 64/394
+2026-11-25 02:17:06,660 INFO bce_positive_only_dice_seed1: best epoch 31, threshold 0.10, validation pooled_foreground_dice 0.7632, positive-slice Dice 0.5843, empty FP 93/394
+2026-11-25 02:17:09,888 INFO weighted_bce_seed2: best epoch 25, threshold 0.95, validation pooled_foreground_dice 0.6832, positive-slice Dice 0.5446, empty FP 74/394
+2026-11-25 02:17:13,051 INFO bce_positive_only_dice_seed2: best epoch 45, threshold 0.95, validation pooled_foreground_dice 0.7768, positive-slice Dice 0.6216, empty FP 94/394
+2026-11-25 02:17:16,273 INFO bce_dice_lambda0.5_seed0: best epoch 35, threshold 0.95, validation pooled_foreground_dice 0.7382, positive-slice Dice 0.5231, empty FP 23/394
+2026-11-25 02:17:19,496 INFO bce_dice_lambda2_seed0: best epoch 17, threshold 0.05, validation pooled_foreground_dice 0.7436, positive-slice Dice 0.5256, empty FP 29/394
+2026-11-25 02:17:19,498 INFO Wrote /home/sagemaker-user/mlproject1-brain-mri-segmentation/results/validation/validation_summary_by_run.csv

@@ -1,0 +1,50 @@
+2026-11-25 01:50:42,607 INFO [bce_positive_only_dice_seed1] epoch 1/50 loss 1.0095 val pooled_foreground_dice 0.4256 @thr 0.9 (0.5: 0.3254, empty FP 195)  *best*
+2026-11-25 01:50:57,140 INFO [bce_positive_only_dice_seed1] epoch 2/50 loss 0.5967 val pooled_foreground_dice 0.4779 @thr 0.85 (0.5: 0.4560, empty FP 154)  *best*
+2026-11-25 01:51:11,750 INFO [bce_positive_only_dice_seed1] epoch 3/50 loss 0.4717 val pooled_foreground_dice 0.5591 @thr 0.8 (0.5: 0.5278, empty FP 239)  *best*
+2026-11-25 01:51:26,324 INFO [bce_positive_only_dice_seed1] epoch 4/50 loss 0.4081 val pooled_foreground_dice 0.5810 @thr 0.95 (0.5: 0.5271, empty FP 150)  *best*
+2026-11-25 01:51:40,887 INFO [bce_positive_only_dice_seed1] epoch 5/50 loss 0.3677 val pooled_foreground_dice 0.6031 @thr 0.95 (0.5: 0.5830, empty FP 151)  *best*
+2026-11-25 01:51:55,469 INFO [bce_positive_only_dice_seed1] epoch 6/50 loss 0.3300 val pooled_foreground_dice 0.6249 @thr 0.95 (0.5: 0.5963, empty FP 193)  *best*
+2026-11-25 01:52:10,091 INFO [bce_positive_only_dice_seed1] epoch 7/50 loss 0.3534 val pooled_foreground_dice 0.4709 @thr 0.05 (0.5: 0.4248, empty FP 134)
+2026-11-25 01:52:24,635 INFO [bce_positive_only_dice_seed1] epoch 8/50 loss 0.3381 val pooled_foreground_dice 0.5590 @thr 0.45 (0.5: 0.5585, empty FP 145)
+2026-11-25 01:52:39,149 INFO [bce_positive_only_dice_seed1] epoch 9/50 loss 0.3111 val pooled_foreground_dice 0.6481 @thr 0.75 (0.5: 0.6445, empty FP 181)  *best*
+2026-11-25 01:52:53,673 INFO [bce_positive_only_dice_seed1] epoch 10/50 loss 0.3089 val pooled_foreground_dice 0.6711 @thr 0.95 (0.5: 0.6059, empty FP 184)  *best*
+2026-11-25 01:53:08,219 INFO [bce_positive_only_dice_seed1] epoch 11/50 loss 0.3045 val pooled_foreground_dice 0.6153 @thr 0.95 (0.5: 0.5687, empty FP 149)
+2026-11-25 01:53:22,791 INFO [bce_positive_only_dice_seed1] epoch 12/50 loss 0.2951 val pooled_foreground_dice 0.6004 @thr 0.95 (0.5: 0.5625, empty FP 232)
+2026-11-25 01:53:37,352 INFO [bce_positive_only_dice_seed1] epoch 13/50 loss 0.2987 val pooled_foreground_dice 0.6128 @thr 0.95 (0.5: 0.5696, empty FP 176)
+2026-11-25 01:53:51,876 INFO [bce_positive_only_dice_seed1] epoch 14/50 loss 0.2822 val pooled_foreground_dice 0.6619 @thr 0.9 (0.5: 0.6597, empty FP 61)
+2026-11-25 01:54:06,430 INFO [bce_positive_only_dice_seed1] epoch 15/50 loss 0.2928 val pooled_foreground_dice 0.6399 @thr 0.95 (0.5: 0.6158, empty FP 132)
+2026-11-25 01:54:20,978 INFO [bce_positive_only_dice_seed1] epoch 16/50 loss 0.2735 val pooled_foreground_dice 0.6458 @thr 0.95 (0.5: 0.6186, empty FP 116)
+2026-11-25 01:54:35,690 INFO [bce_positive_only_dice_seed1] epoch 17/50 loss 0.2812 val pooled_foreground_dice 0.6189 @thr 0.9 (0.5: 0.6131, empty FP 130)
+2026-11-25 01:54:50,316 INFO [bce_positive_only_dice_seed1] epoch 18/50 loss 0.2650 val pooled_foreground_dice 0.6487 @thr 0.5 (0.5: 0.6487, empty FP 99)
+2026-11-25 01:55:04,874 INFO [bce_positive_only_dice_seed1] epoch 19/50 loss 0.2529 val pooled_foreground_dice 0.7061 @thr 0.95 (0.5: 0.6978, empty FP 112)  *best*
+2026-11-25 01:55:19,368 INFO [bce_positive_only_dice_seed1] epoch 20/50 loss 0.2653 val pooled_foreground_dice 0.6878 @thr 0.95 (0.5: 0.6560, empty FP 183)
+2026-11-25 01:55:33,979 INFO [bce_positive_only_dice_seed1] epoch 21/50 loss 0.2665 val pooled_foreground_dice 0.7086 @thr 0.95 (0.5: 0.6756, empty FP 167)  *best*
+2026-11-25 01:55:48,636 INFO [bce_positive_only_dice_seed1] epoch 22/50 loss 0.2668 val pooled_foreground_dice 0.6968 @thr 0.9 (0.5: 0.6921, empty FP 93)
+2026-11-25 01:56:03,279 INFO [bce_positive_only_dice_seed1] epoch 23/50 loss 0.2461 val pooled_foreground_dice 0.7021 @thr 0.25 (0.5: 0.7012, empty FP 108)
+2026-11-25 01:56:17,950 INFO [bce_positive_only_dice_seed1] epoch 24/50 loss 0.2456 val pooled_foreground_dice 0.7183 @thr 0.95 (0.5: 0.6971, empty FP 149)  *best*
+2026-11-25 01:56:32,512 INFO [bce_positive_only_dice_seed1] epoch 25/50 loss 0.2344 val pooled_foreground_dice 0.6769 @thr 0.95 (0.5: 0.6528, empty FP 140)
+2026-11-25 01:56:47,072 INFO [bce_positive_only_dice_seed1] epoch 26/50 loss 0.2272 val pooled_foreground_dice 0.6860 @thr 0.95 (0.5: 0.6539, empty FP 168)
+2026-11-25 01:57:01,678 INFO [bce_positive_only_dice_seed1] epoch 27/50 loss 0.2317 val pooled_foreground_dice 0.7056 @thr 0.95 (0.5: 0.6746, empty FP 204)
+2026-11-25 01:57:16,172 INFO [bce_positive_only_dice_seed1] epoch 28/50 loss 0.2349 val pooled_foreground_dice 0.6897 @thr 0.95 (0.5: 0.6802, empty FP 78)
+2026-11-25 01:57:30,770 INFO [bce_positive_only_dice_seed1] epoch 29/50 loss 0.2210 val pooled_foreground_dice 0.7257 @thr 0.95 (0.5: 0.7159, empty FP 124)  *best*
+2026-11-25 01:57:45,374 INFO [bce_positive_only_dice_seed1] epoch 30/50 loss 0.2276 val pooled_foreground_dice 0.7192 @thr 0.95 (0.5: 0.7021, empty FP 134)
+2026-11-25 01:58:00,129 INFO [bce_positive_only_dice_seed1] epoch 31/50 loss 0.2099 val pooled_foreground_dice 0.7454 @thr 0.95 (0.5: 0.7243, empty FP 144)  *best*
+2026-11-25 01:58:14,696 INFO [bce_positive_only_dice_seed1] epoch 32/50 loss 0.2125 val pooled_foreground_dice 0.7632 @thr 0.1 (0.5: 0.7591, empty FP 64)  *best*
+2026-11-25 01:58:29,528 INFO [bce_positive_only_dice_seed1] epoch 33/50 loss 0.2152 val pooled_foreground_dice 0.6904 @thr 0.95 (0.5: 0.6534, empty FP 179)
+2026-11-25 01:58:44,216 INFO [bce_positive_only_dice_seed1] epoch 34/50 loss 0.2061 val pooled_foreground_dice 0.7156 @thr 0.95 (0.5: 0.6842, empty FP 138)
+2026-11-25 01:58:58,836 INFO [bce_positive_only_dice_seed1] epoch 35/50 loss 0.1990 val pooled_foreground_dice 0.7462 @thr 0.45 (0.5: 0.7461, empty FP 105)
+2026-11-25 01:59:13,553 INFO [bce_positive_only_dice_seed1] epoch 36/50 loss 0.1962 val pooled_foreground_dice 0.7388 @thr 0.95 (0.5: 0.7285, empty FP 145)
+2026-11-25 01:59:28,188 INFO [bce_positive_only_dice_seed1] epoch 37/50 loss 0.1915 val pooled_foreground_dice 0.6964 @thr 0.95 (0.5: 0.6661, empty FP 174)
+2026-11-25 01:59:42,835 INFO [bce_positive_only_dice_seed1] epoch 38/50 loss 0.1880 val pooled_foreground_dice 0.7258 @thr 0.95 (0.5: 0.6996, empty FP 150)
+2026-11-25 01:59:57,403 INFO [bce_positive_only_dice_seed1] epoch 39/50 loss 0.1834 val pooled_foreground_dice 0.7522 @thr 0.95 (0.5: 0.7444, empty FP 113)
+2026-11-25 02:00:12,059 INFO [bce_positive_only_dice_seed1] epoch 40/50 loss 0.1798 val pooled_foreground_dice 0.7351 @thr 0.95 (0.5: 0.7286, empty FP 116)
+2026-11-25 02:00:26,563 INFO [bce_positive_only_dice_seed1] epoch 41/50 loss 0.1947 val pooled_foreground_dice 0.7411 @thr 0.95 (0.5: 0.7232, empty FP 154)
+2026-11-25 02:00:41,176 INFO [bce_positive_only_dice_seed1] epoch 42/50 loss 0.1803 val pooled_foreground_dice 0.7324 @thr 0.95 (0.5: 0.7107, empty FP 156)
+2026-11-25 02:00:55,775 INFO [bce_positive_only_dice_seed1] epoch 43/50 loss 0.1756 val pooled_foreground_dice 0.7399 @thr 0.95 (0.5: 0.7308, empty FP 142)
+2026-11-25 02:01:10,291 INFO [bce_positive_only_dice_seed1] epoch 44/50 loss 0.1798 val pooled_foreground_dice 0.7377 @thr 0.95 (0.5: 0.7256, empty FP 147)
+2026-11-25 02:01:25,020 INFO [bce_positive_only_dice_seed1] epoch 45/50 loss 0.1762 val pooled_foreground_dice 0.7387 @thr 0.95 (0.5: 0.7317, empty FP 138)
+2026-11-25 02:01:39,649 INFO [bce_positive_only_dice_seed1] epoch 46/50 loss 0.1734 val pooled_foreground_dice 0.7484 @thr 0.95 (0.5: 0.7452, empty FP 102)
+2026-11-25 02:01:54,198 INFO [bce_positive_only_dice_seed1] epoch 47/50 loss 0.1718 val pooled_foreground_dice 0.7369 @thr 0.95 (0.5: 0.7267, empty FP 142)
+2026-11-25 02:02:08,787 INFO [bce_positive_only_dice_seed1] epoch 48/50 loss 0.1762 val pooled_foreground_dice 0.7390 @thr 0.95 (0.5: 0.7307, empty FP 136)
+2026-11-25 02:02:23,347 INFO [bce_positive_only_dice_seed1] epoch 49/50 loss 0.1774 val pooled_foreground_dice 0.7476 @thr 0.95 (0.5: 0.7393, empty FP 146)
+2026-11-25 02:02:37,892 INFO [bce_positive_only_dice_seed1] epoch 50/50 loss 0.1669 val pooled_foreground_dice 0.7470 @thr 0.95 (0.5: 0.7396, empty FP 147)

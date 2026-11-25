@@ -1,0 +1,13 @@
+{
+  "frozen_manifest_sha256": "e1efd09db2ee3328af02a1350e9d92a1b81ce8b0db8ae64e57a1d79e1ac9efe7",
+  "attempts": [
+    {
+      "started_at": "2026-11-25T02:17:28+0000",
+      "status": "completed",
+      "test_labels_loaded": true,
+      "retry_reason": null,
+      "finished_at": "2026-11-25T02:17:46+0000",
+      "results_sha256": "425aabfa780237cecd5a70a0035b5926d6d1dcf5e264bec882ace0f60fb951f3"
+    }
+  ]
+}

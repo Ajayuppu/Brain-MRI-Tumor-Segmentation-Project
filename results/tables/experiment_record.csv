@@ -1,0 +1,15 @@
+run_name,study_group,loss,dice_weight,positive_class_weight_used,seed,epochs,batch_size,learning_rate,weight_decay,trainable_parameters,gpu_name,torch,torch_cuda,training_seconds,best_epoch,selected_threshold,selected_threshold_is_grid_edge,is_smoke_test
+bce_seed0,main_comparison,bce,,,0,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,711.2,37,0.5,False,False
+bce_dice_lambda1_seed0,main_comparison,bce_dice,1.0,,0,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,707.9,40,0.65,False,False
+bce_seed1,main_comparison,bce,,,1,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,716.1,21,0.55,False,False
+bce_dice_lambda1_seed1,main_comparison,bce_dice,1.0,,1,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,713.6,49,0.7,False,False
+bce_seed2,main_comparison,bce,,,2,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,713.1,27,0.5,False,False
+bce_dice_lambda1_seed2,main_comparison,bce_dice,1.0,,2,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,717.7,36,0.3,False,False
+weighted_bce_seed0,diagnostic,weighted_bce,,93.57684069339092,0,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,723.4,31,0.95,True,False
+bce_positive_only_dice_seed0,diagnostic,bce_positive_only_dice,1.0,,0,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,725.0,40,0.95,True,False
+weighted_bce_seed1,diagnostic,weighted_bce,,93.57684069339092,1,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,715.0,22,0.95,True,False
+bce_positive_only_dice_seed1,diagnostic,bce_positive_only_dice,1.0,,1,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,730.5,31,0.1,False,False
+weighted_bce_seed2,diagnostic,weighted_bce,,93.57684069339092,2,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,722.6,25,0.95,True,False
+bce_positive_only_dice_seed2,diagnostic,bce_positive_only_dice,1.0,,2,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,725.4,45,0.95,True,False
+bce_dice_lambda0.5_seed0,sensitivity,bce_dice,0.5,,0,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,707.0,35,0.95,True,False
+bce_dice_lambda2_seed0,sensitivity,bce_dice,2.0,,0,50,16,0.001,0.0001,7763041,NVIDIA L40S,2.12.0,13.0,712.8,17,0.05,True,False
