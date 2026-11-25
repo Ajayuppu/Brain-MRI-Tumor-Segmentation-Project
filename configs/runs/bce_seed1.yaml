@@ -1,0 +1,27 @@
+# Baseline: binary cross-entropy (BCE) only.
+# Seed 1. Every run shares the same model, data, budget and validation-only selection rule; only the loss (and seed) differ.
+run_name: bce_seed1
+study_group: main_comparison
+loss: bce
+dice_weight: null   # no Dice term
+soft_dice_smoothing: 1.0   # smoothing constant s in the soft Dice term (unused without Dice)
+positive_class_weight: null
+positive_class_weight_cap: null
+seed: 1
+
+# Model: 2D U-Net from scratch (7,763,041 parameters at base_channels 32)
+base_channels: 32
+
+# Training budget (identical for every run)
+epochs: 50
+batch_size: 16
+optimizer: adamw
+learning_rate: 0.001
+weight_decay: 0.0001
+learning_rate_schedule: cosine   # CosineAnnealingLR over all epochs, stepped once per epoch
+data_loader_workers: 4
+drop_last_incomplete_batch: true
+
+# Validation-only selection (identical for every run)
+selection_metric: pooled_foreground_dice
+threshold_grid: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]

@@ -1,0 +1,8 @@
+# Where the course dataset lives and where results are written.
+# data_root must contain train_manifest.csv, val_manifest.csv, test_manifest.csv,
+# patient_splits.csv and the train/ val/ test/ folders of TIFF images and masks.
+# Dataset folder in the new SageMaker Studio project (JupyterLab space).
+data_root: /home/sagemaker-user/mlproject1-brain-mri-segmentation/data
+
+# Relative paths are resolved from the project root (the folder holding this configs/ folder).
+results_dir: results

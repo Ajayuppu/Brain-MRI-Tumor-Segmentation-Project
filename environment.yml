@@ -1,0 +1,12 @@
+# Conda environment for a fresh GPU machine (not needed inside SageMaker Studio's PyTorch image).
+# Create with: conda env create -f environment.yml && conda activate brain-mri-segmentation
+name: brain-mri-segmentation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu129
+      - torch==2.8.0
+      - -r requirements.txt

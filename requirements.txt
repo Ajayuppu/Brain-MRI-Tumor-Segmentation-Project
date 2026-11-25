@@ -1,0 +1,11 @@
+# Python packages for the project. PyTorch is NOT listed here on purpose: in SageMaker Studio use the
+# preinstalled PyTorch of the GPU image (the study used PyTorch 2.8 with CUDA 12.9 on an NVIDIA L40S).
+# For a fresh machine, install PyTorch first (see environment.yml) and then: pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.2
+pyyaml>=6.0
+tifffile>=2024.1
+pillow>=10.0
+matplotlib>=3.8
+tabulate>=0.9   # pandas DataFrame.to_markdown for the results tables
+pytest>=8.0

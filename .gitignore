@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.render.html
+
+# Data and large artifacts stay out of git
+data/
+*.pt
+*.tar
+*.tar.gz
+results/predicted_masks/
+results/logs/*.pid

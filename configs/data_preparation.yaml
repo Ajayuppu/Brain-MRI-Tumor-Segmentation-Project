@@ -1,0 +1,19 @@
+# Settings for scripts/01_prepare_data.py (data audit + training-only normalisation statistics).
+
+# Course split sizes from the project description, section 3: [patients, image-mask pairs].
+expected_split_sizes:
+  train: [77, 2763]
+  val: [17, 598]
+  test: [16, 568]
+
+# Course-provided patient split, copied unchanged from the course dataset folder.
+course_patient_split_file: course_split_reference/patient_splits.csv
+
+image_height: 256
+image_width: 256
+image_channels: 3
+channel_names: [pre_contrast, flair, post_contrast]
+
+# Data-audit details (training and validation labels only; test is audited by IDs, counts and sizes only).
+small_lesion_threshold_pixels: 100
+lesion_area_quantiles: [0.0, 0.1, 0.25, 0.5, 0.75, 0.9, 1.0]

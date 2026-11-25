@@ -1,0 +1,3 @@
+# Formatting and linting used for this code base (not needed to run the study).
+black>=24.0
+ruff>=0.5

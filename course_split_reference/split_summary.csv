@@ -1,0 +1,4 @@
+split,patient_count,pair_count,positive_mask_slices,empty_mask_slices
+train,77,2763,969,1794
+val,17,598,204,394
+test,16,568,200,368

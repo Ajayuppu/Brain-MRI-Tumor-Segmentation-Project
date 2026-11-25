@@ -1,0 +1,22 @@
+# Settings for scripts/06_make_figures_and_tables.py.
+
+# Loss conditions compared in the main comparison (paired per-patient analysis and overlays).
+baseline_condition: bce
+proposed_condition: bce_dice_lambda1
+
+# Lesion-size subgroups: tertiles of lesion area fitted on TRAINING slices that contain a lesion.
+lesion_size_group_names: [small, medium, large]
+
+# Failure overlays (validation): worst positive slices of the proposed run, and the empty slices
+# with the most false-positive pixels from the baseline run; both seed-0 runs are shown.
+overlay_seed: 0
+overlay_worst_positive_slices: 3
+overlay_worst_empty_slices: 1
+# Representative overlays: positive slices whose proposed-run Dice is nearest these quantiles.
+overlay_representative_dice_quantiles: [0.25, 0.5, 0.75]
+overlay_background_channel: 1   # FLAIR
+
+figure_dpi: 150
+
+# Data-understanding histogram of lesion areas.
+lesion_area_histogram_bins: 40
